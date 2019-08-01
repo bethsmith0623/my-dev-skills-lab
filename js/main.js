@@ -1,4 +1,7 @@
+$('body').removeClass('skills');
 
-$('h4').addClass('text-center');
-
-
+$('.addSkill').on(
+    'click',
+    (function(evt){
+        console.log(`${input}`);
+    }))

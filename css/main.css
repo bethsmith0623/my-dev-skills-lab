@@ -5,11 +5,7 @@
 body {
     margin: 200px 375px;
     font-family: Helvetica;
-    /* display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-rows: 3; */
-    justify-content: center;
-    text-align: center:
+    text-align: left;
 }
 
 h4 {
@@ -38,4 +34,5 @@ input {
 .btn {
     color: white;
     background-color: #E06666;
+    margin: 0 10px 0 0;
 }
