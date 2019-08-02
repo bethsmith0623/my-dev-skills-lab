@@ -3,35 +3,35 @@
 }
 
 body {
-    margin: 200px 375px;
+    margin: 50vmin;
     font-family: Helvetica;
     text-align: left;
 }
 
-h4 {
+h4 { /*title bar*/
     color: white;
     background-color: #93C47D;
     height: 30px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
-.skills {
+.skills { /*skills that are added*/
     color: #FF9A02;
 }
 
-input, .addSkill {
+input, .addSkill { /*input and button*/
     color: #93C47D;
     border-color:#93C47D;
     margin: 10px 0 0 0;
 }
 
-input {
-    width: 250px;
+input { /*input*/
+    width: 75%;
 }
 
-.btn {
+.btn { /*button by skill*/
     color: white;
     background-color: #E06666;
     margin: 0 10px 0 0;
