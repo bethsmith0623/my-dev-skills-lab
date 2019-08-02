@@ -1,23 +1,23 @@
 /* <-----    Constants    ----->  */
 //references to HTML elements
-let skillsInput = $('.skills')
+let skillsInput = $('.newSkill')
 
 /* <----- Event Functions ----->  */
 $('.addSkill').on('click', function(e){
+    e.preventDefault();
     let newSkills = skillsInput.val()
     let skillArr = new Object ({
-        btn: 'X',
         desc: newSkills
     })
-    displayTbl(skillArr);
-    $('div').children('input').val('')
+    render(skillArr);
+    $('div s').children('input').val('')
 });
+
 
 
 /* <----- Render Functions -----> */
 
-function displayTbl(skill) {
-    $('div').append(`
-        ${skill.desc}
+function render(skill) {
+    $('div').append(` ${skill.desc}
     `)
 }
